@@ -1,3 +1,17 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
+    background-color: #f0f0e1;
+}
+
+.title {
+    text-align: center;
+}
+
+.button {
+    margin: auto;
+    background-color: #a0ec6e;
+}
+
+#aboutMe {
+    font-size: 2rem;
 }
