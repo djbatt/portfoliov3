@@ -1,17 +1,22 @@
 $(document).ready(function() {
     $(".projects").hide();
-    $("#contact").hide();
+    $(".contact").hide();
 
-    
     $("#projectButton").on("click", function() {
         $("#aboutMe").hide();
-        $("#contact").hide();
+        $(".contact").hide();
         $(".projects").show();
     });
 
     $("#aboutButton").on("click", function() {
         $(".projects").hide();
-        $("#contact").hide();
+        $(".contact").hide();
         $("#aboutMe").show();
     })
+
+    $("#contactButton").on("click", function() {
+        $(".projects").hide();
+        $("#aboutMe").hide();
+        $(".contact").show();
+    });
 });
