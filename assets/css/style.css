@@ -1,16 +1,22 @@
-body {
+html, body {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #f0f0e1;
     height: 100%;
+    color: #555;
+}
+
+p {
+    font-size: 2rem;
 }
 
 a {
     font-size: 80px;
     color: #a0ec6e;
+    margin: 5px;
 }
 
 a:hover {
-    color: #659e3e;
+    color: #7db856;
 }
 
 .title {
@@ -23,6 +29,27 @@ a:hover {
     background-color: #a0ec6e;
 }
 
-#aboutMe {
-    font-size: 2rem;
+.table-container {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-block {
+    display: table-row;
+    height: 1px;
+}
+
+.footer-push {
+    height: auto;
+}
+
+.image {
+    border-color: #bbb;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#footer {
+    text-align: center;
 }
