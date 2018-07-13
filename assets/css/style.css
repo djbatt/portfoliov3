@@ -1,6 +1,16 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #f0f0e1;
+    height: 100%;
+}
+
+a {
+    font-size: 80px;
+    color: #a0ec6e;
+}
+
+a:hover {
+    color: #659e3e;
 }
 
 .title {
@@ -8,7 +18,8 @@ body {
 }
 
 .button {
-    margin: auto;
+    display: block;
+    margin: 5 auto;
     background-color: #a0ec6e;
 }
 
